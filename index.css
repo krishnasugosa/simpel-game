@@ -1,0 +1,51 @@
+* html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Press Start 2P', cursive;
+
+}
+
+
+#amba{
+display: flex;
+justify-content: center;
+align-items: center;
+animation: karakter 5s infinite alternate-reverse;
+}
+
+@keyframes karakter{
+    50%{scale: 0.3;}
+    100%{scale:  0.5;}
+
+}
+
+.image{
+    width: 60vh;
+    height: 60vh;
+}
+
+.font{
+    margin-top: 20vh;
+    text-align: center;
+}
+
+#MyLabel{
+    margin-top: 5px;
+    font-size: 5vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.fot{
+    margin-top: 20vh;
+    text-align: center;
+    animation: animate 8s infinite linear;
+}
+
+@keyframes animate{
+    0%{font-size: 2vh;}
+    50%{font-size: 3vh;}
+    0%{font-size: 2vh;}
+}
